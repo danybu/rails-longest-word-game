@@ -13,3 +13,30 @@
  *= require_tree .
  *= require_self
  */
+
+body {
+  padding: 0;
+  margin: 0; !important
+}
+
+h1 {
+  font-family: 'Crimson Text';
+  font-size:45px;
+  font-weigth:900;
+}
+
+.wrapper {
+  background-color: #BBB;
+  margin:0;
+  padding:1em;
+}
+
+.main-container {
+  background-color: #DDD;
+  margin: 0 auto;
+  max-width: 80%;
+  height:100vh;
+  padding: 1em 2em;
+  border-radius:4px;
+}
+
